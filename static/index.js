@@ -19,8 +19,6 @@ window.onload = () => {
 			formData.append('image' , input.files[0]);
 			$.ajax({
 				url: "/detectObject", 
-				// fix below to your liking
-				// url: "http://xxx.xxx.xxx.xxx:8080/detectObject", 
 				type:"POST",
 				data: formData,
 				cache: false,
